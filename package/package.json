@@ -1,0 +1,40 @@
+{
+  "name": "konsta",
+  "version": "3.1.3",
+  "description": "Mobile UI components made with Tailwind CSS",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/konstaui/konsta.git"
+  },
+  "keywords": [],
+  "author": "Vladimir Kharlampidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konstaui/konsta/issues"
+  },
+  "homepage": "https://konstaui.com",
+  "engines": {
+    "node": ">= 4.7.0"
+  },
+  "releaseDate": "March 25, 2024",
+  "svelte": "./svelte/konsta-svelte.js",
+  "exports": {
+    "./package.json": "./package.json",
+    "./react": {
+      "types": "./react/konsta-react.d.ts",
+      "require": "./react/cjs/konsta-react.js",
+      "import": "./react/esm/konsta-react.js"
+    },
+    "./vue": {
+      "types": "./vue/konsta-vue.d.ts",
+      "require": "./vue/konsta-vue.js",
+      "import": "./vue/konsta-vue.js"
+    },
+    "./svelte": {
+      "types": "./svelte/konsta-svelte.d.ts",
+      "import": "./svelte/konsta-svelte.js"
+    },
+    "./config": "./config.js",
+    "./config.js": "./config.js"
+  }
+}
